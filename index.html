@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet"/>
+  <!-- main CSS -->
+  <link rel="stylesheet" href="style.css">
+  <title>Dhillika Foundation</title>
+</head>
+<body>
+
+  <!--======================= NAVBAR =======================-->
+  <header class="header" id="header">
+    <a href="#" class="header__logo">Dhillika Foundation</a>
+    <!-- <a href="#" class="header__logo"> The Capital of Socialism</a> -->
+
+    <i class='bx bx-menu header__toggle' id="header-toggle" aria-label="Open menu" role="button"></i>
+
+    <nav class="nav" id="nav-menu" aria-label="Main navigation">
+      <div class="nav__content bd-grid">
+        <a href="#" class="nav__perfil">
+          <div class="nav__img">
+            <img src="logo.jfif" alt="logo">
+          </div>
+
+      <div class="brand-heading">
+        <span class="nav__name" id="first-heading">Dhillika Foundation</span>
+        <span class="nav__name">Empower. Protect. Progress. Youth</span>
+      </div> 
+
+      
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#header" class="nav__link active">Home</a></li>
+
+            <li class="nav__item dropdown">
+              <a href="#" class="nav__link dropdown__link">About us <i class='bx bx-chevron-down dropdown__icon' aria-hidden="true"></i></a>
+              <ul class="dropdown__menu" aria-label="About submenu">
+                <li class="dropdown__item"><a href="#" class="nav__link">Who we are</a></li>
+                <li class="dropdown__item"><a href="#" class="nav__link">Vision & Missions</a></li>
+                <li class="dropdown__item"><a href="#" class="nav__link">Our Team</a></li>
+              </ul>
+            </li>
+
+            <li class="nav__item"><a href="Events.html" class="nav__link">Events</a></li>
+
+            <li class="nav__item dropdown">
+              <a href="News.html" class="nav__link dropdown__link">News <i class='bx bx-chevron-down dropdown__icon' aria-hidden="true"></i></a>
+            </li>
+
+            <li class="nav__item"><a href="#gallery-one-container" class="nav__link">Gallery</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact us</a></li>
+
+            <li class="nav__item">
+              <button class="click-btn" aria-label="Donate">
+                <a href="donate.html" class="nav__link">Donate</a>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ========================= -->
+  <!-- ⭐ MAIN / SECTION 2: AUTO-SCROLLING CAROUSEL ⭐ -->
+  <!-- The original structure had two .gallery blocks (duplicate). We keep that pattern. -->
+  <main>
+    <section aria-label="Featured gallery">
+      <div class="container" id="auto-carousel-container">
+        <!-- first set -->
+        <div class="gallery" aria-hidden="false">
+          <img src="img1.jfif" alt="Event 1" class="cards">
+          <img src="img 2.jfif" alt="Event 2" class="cards">
+          <img src="img 3.jfif" alt="Event 3" class="cards">
+          <img src="img4.jfif" alt="Event 4" class="cards">
+          <img src="img 5.jfif" alt="Event 5" class="cards">
+          <img src="img 6.jfif" alt="Event 6" class="cards">
+          <img src="img 7.jfif" alt="Event 7" class="cards">
+        </div>
+
+        <!-- duplicate for seamless looping -->
+        <div aria-hidden="true" class="gallery">
+          <img src="img1.jfif" alt="Event 1 duplicate" class="cards">
+          <img src="img 2.jfif" alt="Event 2 duplicate" class="cards">
+          <img src="img 3.jfif" alt="Event 3 duplicate" class="cards">
+          <img src="img4.jfif" alt="Event 4 duplicate" class="cards">
+          <img src="img 5.jfif" alt="Event 5 duplicate" class="cards">
+          <img src="img 6.jfif" alt="Event 6 duplicate" class="cards">
+          <img src="img 7.jfif" alt="Event 7 duplicate" class="cards">
+        </div>
+      </div>
+    </section>
+
+    <!--====================== about section =================-->
+    <section class="about-us" aria-label="About section">
+      <h1>About Dhillika Foundation</h1>
+      <div class="paragraph-container">
+        <p>
+          <span>
+            The Trust is dedicated to the welfare and upliftment of underprivileged communities by providing support for their
+            basic needs, improving their living conditions, and helping them access opportunities for growth. It strives to promote
+            and protect human rights by spreading awareness, conducting outreach programs, and assisting individuals who face injustice
+            or discrimination. A strong focus is placed on youth empowerment through initiatives that build confidence, develop practical
+            and leadership skills, and guide young people toward productive careers. The Trust also works to improve education by establishing
+            and supporting schools, training institutes, and literacy programs to ensure that quality learning is accessible to all.
+            Furthermore, it aims to generate employment by offering skill-development workshops, vocational training, and resources that
+            encourage self-employment and entrepreneurship. Along with these primary goals, the Trust may also undertake additional activities
+            that naturally support, complement, or enhance the fulfillment of its core charitable objectives.
+          </span>
+        </p>
+        <img src="my img.jfif" alt="Foundation image">
+      </div>
+    </section>
+
+    <!--========================= Gallery Grid (Section 3) ======================-->
+    <section class="gallery-one-container" aria-label="Gallery grid">
+      <h1>Gallery</h1>
+      <div class="inner-gallery">
+        <img src="img 2.jfif" alt="Gallery 1" id="gallery-item">
+        <img src="img4.jfif" alt="Gallery 2" id="gallery-item">
+        <img src="img 5.jfif" alt="Gallery 3" id="gallery-item">
+        <img src="img 3.jfif" alt="Gallery 4" id="gallery-item">
+        <img src="img1.jfif" alt="Gallery 5" id="gallery-item">
+        <img src="img 7.jfif" alt="Gallery 6" id="gallery-item">
+        <img src="my img.jfif" alt="Gallery 7" id="gallery-item">
+        <img src="img 6.jfif" alt="Gallery 8" id="gallery-item">
+      </div>
+    </section>
+  </main>
+
+  <!--====================== FOOTER =============================-->
+  <footer>
+    <div id="footer-heading">
+      <div id="logo-img">
+        <img src="logo.jfif" alt="logo">
+      </div>
+      <div id="heading-name">
+        <span class="nav__name" id="first-heading-footer">Dhillika Foundation</span>
+        <span class="nav__name">The Capital Of Socialism</span>
+      </div>
+    </div>
+
+    <hr>
+
+    <div id="footer-row">
+      <div class="contact-no">
+        <ul>
+          <li>
+            <a href="#">
+              <i class="ri-phone-fill" id="logo-id-one" aria-hidden="true"></i>
+              +91-729031706
+            </a>
+          </li>
+          <li>
+            <a href="mailto:dhillikafoundation@gmail.com" id="email-id">dhillikafoundation@gmail.com</a>
+          </li>
+        </ul>
+        <p>© 2025 - All Rights are reserved</p>
+      </div>
+
+      <div class="address">
+        <h2>Office</h2>
+        <p> Mr. Harsh Mishra, <br> S/o Shri Vishnu Dutt Mishra,<br>
+          residing at Gram Chandewara,<br> Post Beohara, Lalganj, Azamgarh,<br> Uttar Pradesh – 276202.
+        </p>
+      </div>
+
+      <div class="follow-id">
+        <h2>Follow us</h2>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/dhillika_foundation?utm_source=qr&igsh=MWs2ZTBuZnd2NXJwbQ==" target="_blank">
+              <i class="ri-instagram-line" id="logo-id-two"></i>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="ri-facebook-circle-fill" id="logo-id-three"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="ri-twitter-x-line" id="logo-id-four"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://wa.me/729031706" target="_blank">
+              <i class="ri-whatsapp-line" id="logo-id-five"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <hr>
+
+  </footer>
+
+  <!--===== MAIN JS =====-->
+  <script src="script.js"></script>
+</body>
+</html>
